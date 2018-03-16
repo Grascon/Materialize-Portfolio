@@ -2,22 +2,20 @@ body, html {
 	background-image: url(../images/intersection.png);
     font-family: 'Poppins', sans-serif;
 	height: 100%;
-	margin-bottom: 20px;
 }
-
 nav {
 	background-color: cadetblue;
 	margin-bottom: 10px;
 }
 nav .brand-logo.center {
-    left: 25%;
+    left: 35%;
 }
 .right {
 	margin-right: 15%;
 }
 nav .button-collapse {
-	float: right;
-	margin-right: 100px;
+    float: right;
+    margin-right: 45px;
 }
 .container {
 	margin: 0px auto;
@@ -26,19 +24,35 @@ nav .button-collapse {
 	background-color: white;
 	margin: 10px 0px;
 	padding: 10px;
-	border: 1px solid grey;
+	border: 1px solid rgb(218, 200, 200);
 	border-radius: 15px;
 }
-#my-pic {
-	float: left;
-	margin: 10px;
+.my-portfolio{
+	background-color: white;
+	margin: 10px 0px;
+	padding: 10px;
+	border: 1px solid rgb(218, 200, 200);
+	border-radius: 15px;
 }
 .my-form{
 	background-color: white;
 	margin: 10px 0px;
 	padding: 10px;
-	border: 1px solid grey;
+	border: 1px solid rgb(218, 200, 200);
 	border-radius: 15px;
+}
+.sidebar {
+	background-color: white;
+	border: 1px solid rgb(218, 200, 200);
+	border-radius: 15px;
+	text-align: center;
+	height: 200px;
+	margin-top: 10px;
+	padding: 35px 0px;
+}
+#my-pic {
+	float: left;
+	margin: 10px;
 }
 label {
 	margin-left: 5px;
@@ -55,24 +69,28 @@ textarea{
 button {
 	margin-left: 5px;
 }
-.sidebar {
-	background-color: white;
-	border: 1px solid grey;
-	border-radius: 15px;
-	text-align: center;
-	height: 200px;
-	margin-top: 10px;
-	padding: 35px 0px;
-}
 .sidebar-body{
-	    padding-top: 25px;
+	padding-top: 25px;
+}
+.carousel .carousel-item>img {
+    width: 115%;
+}
+.banner {
+	background-color: cadetblue;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 230px;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
 }
 .footer {
-	position: fixed;
-	bottom: 0;
+	position: sticky;
+	margin-top: 14%;
 	width: 100%;
-	height: 60px;
-	padding: 20px;
+	height: 40px;
+	padding: 10px;
 	background-color: cadetblue;
 	color: white;
 	text-align: center;
