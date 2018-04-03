@@ -4,7 +4,7 @@ body, html {
 	height: 100%;
 }
 nav {
-	background-color: cadetblue;
+	background-color: #2846a3;
 	margin-bottom: 10px;
 }
 nav .brand-logo.center {
@@ -56,7 +56,7 @@ nav ul a {
 }
 h5 {
 	text-decoration: underline;
-	text-decoration-color: cadetblue;
+	text-decoration-color: #2846a3;
 }
 #my-pic {
 	float: left;
@@ -84,7 +84,7 @@ button {
     width: 115%;
 }
 .banner {
-	background-color: cadetblue;
+	background-color: #2846a3;
 	color: white;
 	position: absolute;
 	bottom: 0;
@@ -100,7 +100,7 @@ button {
 	width: 100%;
 	height: 40px;
 	padding: 10px;
-	background-color: cadetblue;
+	background-color: #2846a3;
 	color: white;
 	text-align: center;
 	font-weight: bold;
